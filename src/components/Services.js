@@ -1,33 +1,33 @@
 import React, { Component } from 'react';
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
+import { FaHome, FaCaravan, FaGlobeAmericas, FaChild } from 'react-icons/fa';
 import Title from './Title';
 
 export default class Services extends Component {
   state = {
     services: [
       {
-        icon: <FaCocktail />,
-        title: 'free cocktails',
+        icon: <FaHome />,
+        title: 'Unique Homes',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, laudantium.',
+          'From windmills, bunkers, treehouses, churches, lighthouses, caves and many more strange and wonderful places.',
       },
       {
-        icon: <FaHiking />,
-        title: 'endless hiking',
+        icon: <FaCaravan />,
+        title: 'Endless Options',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, laudantium.',
+          'Are you looking for a beautiful home in the woods? Or maybe a quaint little village. The choices are endless.',
       },
       {
-        icon: <FaShuttleVan />,
-        title: 'free shuttle',
+        icon: <FaGlobeAmericas />,
+        title: 'Around the World',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, laudantium.',
+          'Our places are from all over the globe! Maybe you want a new exciting location or find somewhere close to home.',
       },
       {
-        icon: <FaBeer />,
-        title: 'strongest beer',
+        icon: <FaChild />,
+        title: 'Special People',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, laudantium.',
+          'Our homes fit your unique and wonderful tastes and can accomodate any kind of place you have in mind.',
       },
     ],
   };

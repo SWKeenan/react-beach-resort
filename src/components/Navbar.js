@@ -16,7 +16,10 @@ export default class Navbar extends Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/">
-              <img src={logo} alt="Beach Resort" />
+            <img src={logo} alt="logo" className="navbar-brand" />
+            </Link>
+            <Link to="/">
+            <span className="logo-name">Special Places</span>
             </Link>
             <button
               type="button"
@@ -33,7 +36,7 @@ export default class Navbar extends Component {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/rooms">Rooms</Link>
+              <Link to="/places">Places</Link>
             </li>
           </ul>
         </div>

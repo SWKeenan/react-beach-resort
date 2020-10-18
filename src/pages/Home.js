@@ -3,23 +3,23 @@ import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
 import Services from '../components/Services';
-import FeaturedRooms from '../components/FeaturedRooms';
+import FeaturedPlaces from '../components/FeaturedPlaces';
 
 export default function Home() {
   return (
     <>
       <Hero>
         <Banner
-          title="luxurious rooms"
-          subtitle="deluxe rooms starting at $299"
+          title="Special places"
+          subtitle="Find your perfect place with its own unique style and charm"
         >
-          <Link to="/rooms" className="btn-primary">
-            our rooms
+          <Link to="/places" className="btn-primary">
+            our places
           </Link>
         </Banner>
       </Hero>
       <Services />
-      <FeaturedRooms />
+      <FeaturedPlaces />
     </>
   );
 }
